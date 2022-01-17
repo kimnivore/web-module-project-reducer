@@ -12,3 +12,8 @@ export const CHANGE_OPERATION = "CHANGE_OPERATION";
 export const changeOperation = (operator) => {
     return({type:CHANGE_OPERATION, payload:operator});
 }
+
+export const CLEAR_DISPLAY = 'CLEAR_DISPLAY';
+export const clearDisplay = (number) => {
+    return({type:CLEAR_DISPLAY});
+}
