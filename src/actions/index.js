@@ -14,6 +14,11 @@ export const changeOperation = (operator) => {
 }
 
 export const CLEAR_DISPLAY = 'CLEAR_DISPLAY';
-export const clearDisplay = (number) => {
+export const clearDisplay = () => {
     return({type:CLEAR_DISPLAY});
+}
+
+export const MEMORY_ADD = 'MEMORY_ADD';
+export const memoryAdd = () => {
+    return({type:MEMORY_ADD});
 }
