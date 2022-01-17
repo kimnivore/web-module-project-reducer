@@ -27,3 +27,8 @@ export const MEMORY_APPLY = 'MEMORY_APPLY';
 export const applyMemory = () => {
     return({type:MEMORY_APPLY});
 }
+
+export const MEMORY_CLEAR = 'MEMORY_CLEAR';
+export const clearMemory = () => {
+    return({type:MEMORY_CLEAR});
+}
