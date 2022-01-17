@@ -19,6 +19,11 @@ export const clearDisplay = () => {
 }
 
 export const MEMORY_ADD = 'MEMORY_ADD';
-export const memoryAdd = () => {
+export const addMemory = () => {
     return({type:MEMORY_ADD});
+}
+
+export const MEMORY_APPLY = 'MEMORY_APPLY';
+export const applyMemory = () => {
+    return({type:MEMORY_APPLY});
 }
