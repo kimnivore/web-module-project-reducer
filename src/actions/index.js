@@ -9,3 +9,6 @@ export const applyNumber = (number) => {
 }
 
 export const CHANGE_OPERATION = "CHANGE_OPERATION";
+export const changeOperation = (operator) => {
+    return({type:CHANGE_OPERATION, payload:operator});
+}
